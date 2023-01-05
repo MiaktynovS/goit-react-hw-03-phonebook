@@ -1,0 +1,16 @@
+.contactList{
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 5px;
+}
+
+.contactList__item{
+    padding-bottom: 10px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+
+.contactList__btn{
+    margin-top: 4px;
+    padding: 2px;
+}

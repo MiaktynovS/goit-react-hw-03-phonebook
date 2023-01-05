@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  padding-left: 40px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,3 +14,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button{
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  }
+
+  button:hover{
+    background-color: aquamarine;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1000ms;
+  }
+
